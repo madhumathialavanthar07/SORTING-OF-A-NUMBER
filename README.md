@@ -38,7 +38,6 @@ DOWN:DJNZ R6,LOOP
 MOV R1,#02H
 DJNZ R1,LOOP1
 END
-
 ## OUTPUT(Ascending order)
 <img width="1669" height="843" alt="image" src="https://github.com/user-attachments/assets/60a61d6a-c028-4bca-b06d-78973a0a22dc" />
 
@@ -72,7 +71,6 @@ DOWN:DJNZ R6,LOOP
 MOV R1,#02H
 DJNZ R1,LOOP1
 END
-
 ## OUTPUT(Descending order)
 <img width="1675" height="791" alt="image" src="https://github.com/user-attachments/assets/7ef41fb4-3bab-4a5c-9caf-839cdced9eeb" />
 
