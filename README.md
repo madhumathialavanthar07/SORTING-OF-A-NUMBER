@@ -1,12 +1,10 @@
 ## Aim
 To write and execute an Assembly Language Program for sorting data in Ascending and  descending order using 8051 microcontroller on Keil software.
 ---
-
 ## Apparatus Required
 - Personal Computer  
 - Keil µVision software  
 ---
-
 ## Algorithm(ASCENDING ORDER)
 1. Initialize the register **R7** with count (number of elements).  
 2. Get the first two elements into two registers.  
@@ -18,7 +16,6 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 6. If **R7 ≠ 0**, repeat from Step 2.  
 7. Otherwise, stop the program.  
 ---
-
 ## Program (Ascending order)
 ```
 ORG 0000H
@@ -54,6 +51,7 @@ END
    - If **No**, repeat the process from Step 2.  
    - If **Yes**, stop the program.  
 ---
+
 ## Program (Descending order)
 ```
 ORG 0000H
